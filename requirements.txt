@@ -1,0 +1,35 @@
+# Python Requirements File
+# For grok_server.py and server.py
+
+# Current status: No external packages required
+# All imports are from Python standard library (http.server, json, urllib.parse, datetime)
+
+# Python version: 3.6+ recommended
+
+# ============================================
+# Installed modules:
+# ============================================
+
+# Web frameworks:
+flask==3.0.0
+fastapi==0.104.1
+# django==4.2.7
+
+# HTTP requests:
+requests==2.31.0
+httpx==0.25.2
+
+# Data processing:
+# numpy==1.24.3
+# pandas==2.0.3
+
+# Environment variables:
+python-dotenv==1.0.0
+
+# CORS handling (if needed):
+flask-cors==4.0.0
+
+# ============================================
+# Installation:
+# pip install -r requirements.txt
+# ============================================
